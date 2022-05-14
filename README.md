@@ -28,7 +28,7 @@ ENTRYPOINT ./demo
 
 ```
 
-``bash
+```bash
 docker build -t logger .
 ```
 
