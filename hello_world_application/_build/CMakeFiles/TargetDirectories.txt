@@ -1,0 +1,5 @@
+/home/augustus/TIMP/lab03/hello_world_application/_build/CMakeFiles/formatter_lib.dir
+/home/augustus/TIMP/lab03/hello_world_application/_build/CMakeFiles/formatter_ex_lib.dir
+/home/augustus/TIMP/lab03/hello_world_application/_build/CMakeFiles/lab03.dir
+/home/augustus/TIMP/lab03/hello_world_application/_build/CMakeFiles/edit_cache.dir
+/home/augustus/TIMP/lab03/hello_world_application/_build/CMakeFiles/rebuild_cache.dir
