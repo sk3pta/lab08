@@ -22,9 +22,9 @@ jobs:
         
         mkdir artifacts
         mv output.txt artifacts/
-    
-    - uses: actions/upload-artifact@v2
     - name: Publish
+    - uses: actions/upload-artifact@v2
+    
       with:
         name: artifacts
         path: artifacts/
