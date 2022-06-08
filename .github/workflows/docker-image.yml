@@ -15,4 +15,18 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build -t logger .
+      run: |
+        docker build -t logger .
+        docker run -d -p 9999:90 logger
+        ping localhost:9999 >> output.txt
+        
+        mkdir artifacts
+        mv output.txt artifacts/
+    
+    - uses: actions/upload-artifact@v2
+    - name: Publish
+    
+      with:
+        name: artifacts
+        path: artifacts/
+    
